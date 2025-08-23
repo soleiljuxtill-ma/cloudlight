@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Grand Hotel Barcelona",
+  "description": "Luxury hotel in the heart of Barcelona with stunning city views and world-class amenities",
+  "telephone": "+34 93 123 4567",
+  "url": "https://grandhotelbarcelona.com",
+  "priceRange": "€€€",
+  "starRating": 5,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Rambla Catalunya",
+    "addressLocality": "Barcelona",
+    "addressRegion": "Catalonia",
+    "postalCode": "08008",
+    "addressCountry": "ES"
+  },
+  "image": [
+    "https://grandhotelbarcelona.com/images/hotel-exterior.jpg",
+    "https://grandhotelbarcelona.com/images/hotel-lobby.jpg",
+    "https://grandhotelbarcelona.com/images/hotel-room.jpg"
+  ],
+  "amenities": [
+    "Free WiFi",
+    "Outdoor Pool",
+    "Spa & Wellness Center",
+    "Rooftop Restaurant",
+    "24/7 Concierge",
+    "Business Center",
+    "Fitness Center",
+    "Valet Parking"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/grandhotelbarcelona",
+    "https://www.instagram.com/grandhotelbarcelona",
+    "https://www.linkedin.com/company/grandhotelbarcelona"
+  ]
+}
+

@@ -1,0 +1,222 @@
+/* JSON-LD Templates Styling */
+.jsonld-manager {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.jsonld-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.jsonld-header h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.validation-status {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.validation-status.valid {
+  background: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.validation-status.invalid {
+  background: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+  border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.validation-errors {
+  background: rgba(244, 67, 54, 0.05);
+  border: 1px solid rgba(244, 67, 54, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.validation-errors h4 {
+  margin: 0 0 12px 0;
+  color: #f44336;
+  font-size: 1.1rem;
+}
+
+.error-item {
+  color: #d32f2f;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.jsonld-preview {
+  margin-bottom: 20px;
+}
+
+.jsonld-preview h4 {
+  margin: 0 0 12px 0;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.jsonld-code {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.jsonld-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.jsonld-actions .btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-weight: 500;
+}
+
+.jsonld-actions .btn-primary {
+  background: var(--brand);
+  color: white;
+}
+
+.jsonld-actions .btn-primary:hover {
+  background: var(--brand-2);
+  transform: translateY(-1px);
+}
+
+.jsonld-actions .btn-outline {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.jsonld-actions .btn-outline:hover {
+  background: var(--bg);
+  border-color: var(--brand);
+}
+
+.jsonld-info {
+  background: rgba(108, 140, 255, 0.05);
+  border: 1px solid rgba(108, 140, 255, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.jsonld-info h4 {
+  margin: 0 0 12px 0;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.jsonld-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.jsonld-info li {
+  margin-bottom: 8px;
+  color: var(--subtext);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.jsonld-info li strong {
+  color: var(--text);
+  margin-right: 8px;
+  min-width: 120px;
+}
+
+.jsonld-error {
+  background: rgba(244, 67, 54, 0.05);
+  border: 1px solid rgba(244, 67, 54, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.jsonld-error h3 {
+  color: #f44336;
+  margin: 0 0 12px 0;
+}
+
+.jsonld-error p {
+  color: var(--subtext);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .jsonld-manager {
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  .jsonld-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+  .jsonld-actions {
+    flex-direction: column;
+  }
+  
+  .jsonld-actions .btn {
+    width: 100%;
+  }
+  
+  .jsonld-code {
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jsonld-manager {
+    padding: 12px;
+  }
+  
+  .jsonld-header h3 {
+    font-size: 1.3rem;
+  }
+  
+  .validation-status {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
