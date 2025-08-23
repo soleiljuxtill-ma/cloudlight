@@ -57,7 +57,7 @@ Cloudlight.ai helps businesses increase their lead generation and ROI through ad
 
 ## 🌐 Live Demo
 
-Visit the live website: [https://soleiljuxtill-ma.github.io/cloudlight](https://soleiljuxtill-ma.github.io/cloudlight)
+Visit the live website: [https://cloudlight.ai](https://cloudlight.ai)
 
 ## 📊 ROI Calculator
 
@@ -96,7 +96,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Website**: [https://soleiljuxtill-ma.github.io/cloudlight](https://soleiljuxtill-ma.github.io/cloudlight)
+- **Website**: [https://cloudlight.ai](https://cloudlight.ai)
 - **GitHub**: [https://github.com/soleiljuxtill-ma/cloudlight](https://github.com/soleiljuxtill-ma/cloudlight)
 
 ---
