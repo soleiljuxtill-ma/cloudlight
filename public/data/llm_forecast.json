@@ -1,0 +1,16 @@
+{
+  "series": [
+    { "year": 2023, "base": 1,  "aggressive": 2 },
+    { "year": 2024, "base": 3,  "aggressive": 4 },
+    { "year": 2025, "base": 5,  "aggressive": 8 },
+    { "year": 2026, "base": 9,  "aggressive": 15 },
+    { "year": 2027, "base": 14, "aggressive": 25 },
+    { "year": 2028, "base": 20, "aggressive": 35 },
+    { "year": 2029, "base": 25, "aggressive": 40 },
+    { "year": 2030, "base": 30, "aggressive": 45 }
+  ],
+  "note": "Illustrative share of search-like queries handled by LLM assistants. Base vs aggressive scenarios derived from adoption trend assumptions."
+}
+
+
+

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "LLMSEO - Hotel LLM SEO Services",
+  "url": "https://llmseo.com",
+  "description": "Specialized LLM SEO services that make your hotel the AI-recommended choice across ChatGPT, Perplexity, and Grok. We help hotels dominate AI assistant responses, reduce OTA dependency, and increase direct bookings through advanced AI optimization techniques.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "LLMSEO"
+  },
+  "keywords": ["hotel LLM SEO", "AI optimization", "ChatGPT SEO", "hotel marketing", "direct bookings", "OTA alternatives", "AI assistant optimization"],
+  "inLanguage": "en-US",
+  "copyrightYear": "2024",
+  "author": {
+    "@type": "Person",
+    "name": "LLMSEO Team"
+  },
+  "mainEntityOfPage": "https://llmseo.com",
+  "sameAs": [
+    "https://linkedin.com/company/llmseo",
+    "https://twitter.com/llmseo"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://llmseo.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}

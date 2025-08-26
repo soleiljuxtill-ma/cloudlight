@@ -1,0 +1,26 @@
+{
+  "series": [
+    {"month": "2023-01", "chatgpt": 5,  "perplexity": 1,  "gemini": 0,  "llm": 5,  "google": 100},
+    {"month": "2023-03", "chatgpt": 10, "perplexity": 2,  "gemini": 0,  "llm": 9,  "google": 100},
+    {"month": "2023-05", "chatgpt": 16, "perplexity": 3,  "gemini": 0,  "llm": 14, "google": 99},
+    {"month": "2023-07", "chatgpt": 22, "perplexity": 5,  "gemini": 2,  "llm": 20, "google": 99},
+    {"month": "2023-09", "chatgpt": 30, "perplexity": 8,  "gemini": 4,  "llm": 28, "google": 98},
+    {"month": "2023-11", "chatgpt": 38, "perplexity": 10, "gemini": 6,  "llm": 35, "google": 98},
+    {"month": "2024-01", "chatgpt": 48, "perplexity": 13, "gemini": 10, "llm": 44, "google": 98},
+    {"month": "2024-03", "chatgpt": 60, "perplexity": 18, "gemini": 16, "llm": 55, "google": 97},
+    {"month": "2024-05", "chatgpt": 68, "perplexity": 22, "gemini": 22, "llm": 63, "google": 97},
+    {"month": "2024-07", "chatgpt": 78, "perplexity": 28, "gemini": 30, "llm": 72, "google": 96},
+    {"month": "2024-09", "chatgpt": 86, "perplexity": 34, "gemini": 38, "llm": 80, "google": 96},
+    {"month": "2024-11", "chatgpt": 94, "perplexity": 40, "gemini": 46, "llm": 88, "google": 95},
+    {"month": "2025-01", "chatgpt": 100,"perplexity": 47, "gemini": 54, "llm": 95,  "google": 95},
+    {"month": "2025-03", "chatgpt": 108,"perplexity": 54, "gemini": 62, "llm": 102, "google": 94},
+    {"month": "2025-05", "chatgpt": 116,"perplexity": 60, "gemini": 70, "llm": 110, "google": 94},
+    {"month": "2025-07", "chatgpt": 124,"perplexity": 68, "gemini": 78, "llm": 118, "google": 94},
+    {"month": "2025-09", "chatgpt": 132,"perplexity": 76, "gemini": 86, "llm": 126, "google": 93},
+    {"month": "2025-11", "chatgpt": 140,"perplexity": 84, "gemini": 94, "llm": 134, "google": 93},
+    {"month": "2026-01", "chatgpt": 148,"perplexity": 92, "gemini": 102, "llm": 142, "google": 92}
+  ],
+  "note": "Illustrative index by assistant (ChatGPT, Perplexity, Gemini) plus an LLM aggregate vs Google. Normalized at 2023-01: Google = 100."
+}
+
+
